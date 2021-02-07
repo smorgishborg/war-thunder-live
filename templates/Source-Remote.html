@@ -485,7 +485,7 @@
       map_info = info
 
       if (prevMapGen != newMapGen) {
-        map_image.src = 'http://192.168.0.203:8111/map.img'
+        map_image.src = local_url + 'map.img'
         map_scale = 1.0
         map_pan = [0.0, 0.0]
         redraw_map(0.0)
